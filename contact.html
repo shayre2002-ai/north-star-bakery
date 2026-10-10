@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Star Bakery | Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="Bakery_c/bakery-logo_c.png"
+             alt="North Star Bakery logo">
+
+        <h1>Contact North Star Bakery</h1>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Our Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>We Would Love to Hear from You</h2>
+
+        <p>
+            Have a question about our baked goods?
+            Interested in placing a pre-order?
+            Fill out the form below to tell us
+            what you need.
+        </p>
+
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend>Your Contact Information</legend>
+
+                <p>
+                    <label for="customer-name">
+                        Full Name:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="customer-name"
+                        name="customer-name"
+                        required>
+                </p>
+
+                <p>
+                    <label for="customer-email">
+                        Email Address:
+                    </label>
+
+                    <input
+                        type="email"
+                        id="customer-email"
+                        name="customer-email"
+                        required>
+                </p>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Bakery Request</legend>
+
+                <p>
+                    <label for="request-type">
+                        What can we help you with?
+                    </label>
+
+                    <select
+                        id="request-type"
+                        name="request-type"
+                        required>
+
+                        <option value="">
+                            Choose an option
+                        </option>
+
+                        <option value="pre-order">
+                            Bakery Pre-Order
+                        </option>
+
+                        <option value="question">
+                            General Question
+                        </option>
+
+                    </select>
+                </p>
+
+                <p>
+                    <label for="pickup-date">
+                        Preferred Pickup Date:
+                    </label>
+
+                    <input
+                        type="date"
+                        id="pickup-date"
+                        name="pickup-date">
+                </p>
+
+                <p>
+                    <label for="item-details">
+                        Items or Request Details:
+                    </label>
+
+                    <textarea
+                        id="item-details"
+                        name="item-details"
+                        rows="5"
+                        cols="40"
+                        required></textarea>
+                </p>
+
+                <p>
+                    <label for="allergy-notes">
+                        Allergy Notes (Optional):
+                    </label>
+
+                    <textarea
+                        id="allergy-notes"
+                        name="allergy-notes"
+                        rows="3"
+                        cols="40"></textarea>
+                </p>
+
+            </fieldset>
+
+            <p>
+                <button type="submit">
+                    Send Request
+                </button>
+            </p>
+
+        </form>
+
+        <p>
+            Please note that submitting this
+            sample form does not send a real
+            message until the website is
+            connected to a form service.
+        </p>
+
+    </main>
+
+    <footer>
+        <p>North Star Bakery</p>
+        <p>Fresh baking for our community.</p>
+    </footer>
+
+</body>
+</html>
